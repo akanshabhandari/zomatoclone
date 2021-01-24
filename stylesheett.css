@@ -1,0 +1,390 @@
+body{
+margin:0;
+padding:0;
+box-sizing:border-box;
+overflow-x:hidden;
+}
+.para
+{
+position:absolute;
+color:white;
+font-size:40px;
+top:180px;
+left:470px;
+padding:10px;
+}
+#locations
+{
+position:relative;
+top:30px;
+left:250px;
+margin-top:50px;
+margin-bottom:50px;
+}
+.end{
+    height:50%;
+}
+.popular{
+font-size: 40px;
+color:black;
+}
+.location-div
+{
+width:100%;
+height:60px;
+background-color:blue;
+border:20px;
+border-radius:30px;
+cursor:pointer;
+}
+.locations-div :hover
+{
+box-shadow:1px 1px 5px #ccc;
+}
+
+.high {
+    position: absolute;
+    top: -10px;
+    left: 600px;
+    height: 65%;
+    width: 20%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    transition: all 1.4s ease 0s;
+}
+#img
+{
+position: relative;
+width: 100vw;
+height:450px;
+background-image:url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+header
+{
+width:100vw;
+height:60px;
+}
+.nav-menu
+{
+color:white;
+width:60vw;
+height:60px;
+}
+.zomato{
+display:block;
+font-weight:bolder;
+color:white;
+text-align:center;
+font-size:50px;
+margin:0;
+font-family:Okra,Helvetica,sans-serif;
+
+}
+.header-flex{
+margin-top:100px;
+}
+.login{
+border-bottom:0px solid black;
+transition:border-bottom 0.3s;
+cursor:pointer;
+}
+.signup{
+border-bottom:0px solid black;
+transition:border-bottom 0.3s;
+position:absolute;
+left:1260px;
+cursor:pointer;
+}
+.nav-link:hover{
+border-bottom:5px solid white;
+}
+
+.search-box{
+position:absolute;
+top:300px;
+width:40vw;
+left:400px;
+height:60px;
+background-color:white;
+border:none;
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+padding-left:20px;
+outline:none;
+font-weight:bold;
+font-size:18px;
+}
+.search-btn
+{
+position:absolute;
+left:1010px;
+top:300px;
+height:60px;
+width:130px;
+background-color:red;
+color:white;
+border:none;
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+font-weight:bold;
+
+}
+#second-section
+{
+margin-top:50px;
+margin-bottom:50px;
+}
+.card {
+width:100%;
+height:200px;
+background-color:white;
+border:none;
+border-radius:50px;
+box-shadow:1px 1px 10px #ccc;
+overflow:hidden;
+transition: box-shadow 0.3s;
+margin-bottom: 10px;
+}
+.card:hover{
+box-shadow:1px 1px 10px #000;
+cursor:pointer;
+}
+.card-botton{
+position:absolute;
+background-color:white;
+height:50px;
+width:100%;
+margin-top:150px;
+}
+.mobile
+{
+position:absolute;
+left:200px;
+}
+#app{
+background-color:#fffbf7
+}
+#get-zomato-app
+{
+margin-top:50px;
+margin-bottom:50px;
+padding-top:30px;
+padding-bottom:30px;
+background-color:rgba(234,241,130,0,1);
+}
+.email{
+width:250px;
+height:40px;
+padding-left:10px;
+border:1px solid #ccc;
+outline:line;
+border-radius:10px;
+background-color:white;
+}
+.popup
+{
+background-color:white;
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+display:none;
+justify-content:center;
+align-items:center;
+}
+.popup-content{
+height:250px;
+width:500px;
+background:#fff;
+padding:20px;
+border-radius:5px;
+position:relative;
+}
+input{
+margin:20px auto;
+display:block;
+width:50%;
+padding:8px;
+border:1px solid gray;
+}
+.close
+{
+position:absolute;
+top:-15px;
+right:-15px;
+background: #fff;
+height:20px;
+width:20px;
+border-radius:50px;
+box-shadow:0px 0px 20px -4px rgba();
+cursor:pointer;
+}
+#login{
+border-radius:10px;
+z-index:1;
+position:absolute;
+display:none;
+width:460px;
+ top: 140px;
+ left:530px;
+height:450px;
+padding:30px;
+background-color:white;
+}
+.log{
+color:black;
+position:absolute;
+left:9px;
+top:5px;
+font-size:28px;
+padding:10px;
+}
+.input
+{
+width:690px;
+padding:40px;
+}
+.inpn
+{
+position:absolute;
+top:55px;
+width:720px;
+padding:10px;
+}
+.inpe
+{
+position:absolute;
+top:115px;
+width:720px;
+padding:10px;
+}
+.checkbox{
+position:absolute;
+top:200px;
+left:30px;
+color:grey;
+}
+.check{
+position:absolute;
+top:200px;
+left:-80px;
+color:grey;
+}
+.ter{
+font-size:13px;
+position:relative;
+top:140px;
+left:20px;
+color:grey;
+}
+.terms
+{
+font-size:13px;
+position:relative;
+top:0px;
+left:0px;
+color:pink;
+}
+.otp
+{
+font-size:18px;
+padding:4px;
+height:40px;
+width:400px;
+border-radius:8px;
+text-align:center;
+color:white;
+background-color:red;
+}
+.email{
+font-size:18px;
+padding:4px;
+height:40px;
+width:400px;
+border-radius:8px;
+text-align:center;
+color:grey;
+background-color:white;
+}
+.google{
+font-size:18px;
+padding:4px;
+height:40px;
+width:400px;
+border-radius:18px;
+text-align:center;
+color:grey;
+background-color:white;
+}
+.span{
+font-size:18px;
+color:pink;
+position:relative;
+top:0px;
+}
+.hrsign{
+position:relative;
+top:190px;
+padding:33px;
+}
+.account{
+font-size:18px;
+color:grey;
+position:absolute;
+top:410px;
+}
+.emailsign
+{
+padding:8px;
+position:absolute;
+width:390px;
+height:50px;
+border-radius:10px;
+top:340px;
+text-align:center;
+border-style:ridge;
+color:grey;
+}
+.acc
+{
+color:red;
+}
+#new{
+position:absolute;
+bottom:10px;
+color:grey;
+padding:10px;
+}
+#sign{
+border-radius:10px;
+z-index:1;
+position:absolute;
+display:none;
+width:460px;
+ top: 140px;
+ left:550px;
+height:450px;
+padding:30px;
+background-color:white;
+}
+.create
+{
+margin:10px;
+border-radius:8px;
+position:absolute;
+top:230px;
+left:20px;
+text-align:center;
+color:white;
+height:40px;
+width:370px;
+background-color:grey;
+padding:6px;
+}
+
+
