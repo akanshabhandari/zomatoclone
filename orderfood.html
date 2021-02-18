@@ -1,7 +1,40 @@
 <html>
 <head>
 <link href="style.css" rel="stylesheet"/>
+<script  src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+ crossorigin="anonymous"></script>
 <title></title>
+<script>
+$(document).ready(function()
+{
+	$("#h4").dbclick(function(){
+    $(".delivery").show()
+	});	
+    });
+   
+   $(document).ready(function()
+{
+	$("#h4").click(function(){
+    $(".delivery").hide()
+	});	
+    });
+   
+$(document).ready(function()
+{
+	$("#h5").dbclick(function(){
+    $(".del").show()
+	});	
+    });
+
+	$(document).ready(function()
+{
+	$("#h4").click(function(){
+    $(".del").hide()
+	});	
+    });
+   
+
+</script>
 </head>
 <body>
 <div >
@@ -9,16 +42,108 @@
 <input type="text" placeholder = "search for dishes or cuisines...." class="search"/>
 <button class="searchbtn">Search</button>
 </div><br>
+
 <div>
 <p id="h4">Delivery</p>
 <p id="h5">Dining-out</p>
 <p id="h6">Nightlife</p>
 </div>
 <hr id="hr">
+<div class="delivery">
 <h4>Delivery Resturants</h4>
-
+<span>
+<a href="food.html">
 <img class ="food1" src="https://b.zmtcdn.com/data/pictures/4/19153214/e795b8dec7fc122d8856538f17bc37db_o2_featured_v2.jpg?output-format=webp">
+</a>
+<span class="off" style="color:white;position:relative;left:-134px;top:140px;"> 50% OFF</span>
+<span class="pro" style="color:white;position:relative;left:-200px;top:110px;">pro extra 50% OFF</span>
+</span>
+<span>
 <img class ="food2"  src="https://b.zmtcdn.com/data/pictures/6/19270356/48abfccedf0d197f87d4af27474b78b2_o2_featured_v2.png?output-format=webp">
+<span class="off" style="color:white;position:relative;left:-264px;top:140px;"> 50% OFF</span>
+</span>
+<img class ="food3"  src="https://b.zmtcdn.com/data/pictures/chains/9/19268649/fcd5c6ee253d7fdcf7e7c374dd3f6a73_o2_featured_v2.jpg?output-format=webp">
+
+<span style = " font-size:25px;position:relative ;left:240px; ;top:150px ">
+<p>The Biryani Life</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Biryani,North India<br></p>
+Rs.200 Per Person</p>
+</span>
+<span style = " font-size:25px;position:relative ; top:20px;left:650px ">
+<p>Burgur King</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Burgur,American<br>
+Rs.150 Per Person</p></span>
+<span style = " font-size:25px;position:relative ; top:-100px;left:1050px ">
+<p>Sweet Truth</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Bakery,Desserts<br>
+Rs.200 Per Person</p></span>
+
+<img class ="food4" src="https://b.zmtcdn.com/data/pictures/chains/2/19318342/5364a24b1900e968e7e6790cb6041ff8_o2_featured_v2.jpg">
+<img class ="food5"  src="https://b.zmtcdn.com/data/pictures/4/801104/035c9a4200ae25866b7266ff995715f4_o2_featured_v2.jpg">
+<img class ="food6"  src="https://b.zmtcdn.com/data/pictures/chains/6/800106/9a8df7f6e825f15f1e32f00bf967ca5b_o2_featured_v2.jpg">
+
+<span style = " font-size:25px;position:absolute ;left:230px; ;top:1000px ">
+<p>The Biryani Life</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Biryani,North India<br>
+Rs.200 Per Person</p>
+</span>
+<span style = " font-size:25px;position:absolute ; top:1000px;left:650px ">
+<p>Burgur King</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Burgur,American<br>
+Rs.150 Per Person</p></span>
+<span style = " font-size:25px;position:absolute; top:1000px;left:1050px ">
+<p>Sweet Truth</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Bakery,Desserts<br>
+Rs.200 Per Person</p></span>
+
+<img class ="food7" src="https://b.zmtcdn.com/data/pictures/5/19231445/c751805b5927046d340926f870a95f5e_o2_featured_v2.jpg?output-format=webp">
+<img class ="food8"  src="https://b.zmtcdn.com/data/homepage_dish_data/2/78261817faa51e9456cfab592c189a62.png">
+<img class ="food9"  src="https://b.zmtcdn.com/data/homepage_dish_data/4/90cc74d5256f614fc6658cf7942dadd9.png">
+
+<span style = " font-size:25px;position:relative;left:190px;top:350px ">
+<p>The Biryani Life</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Biryani,North India<br>
+Rs.200 Per Person</p>
+</span>
+<span style = " font-size:25px;position:relative; top:220px;left:620px ">
+<p>Burgur King</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Burgur,American<br>
+Rs.150 Per Person</p></span>
+<span style = " font-size:25px;position:relative; top:95px;left:1050px ">
+<p>Sweet Truth</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Bakery,Desserts<br>
+Rs.200 Per Person</p></span>
+
+<img class ="food10" src="https://b.zmtcdn.com/data/pictures/9/800119/18378edfd9f0f670f99e07796670acbd_o2_featured_v2.jpg">
+<img class ="food11"  src="https://b.zmtcdn.com/data/pictures/chains/2/18639812/cfbda35382090ddbf5128a946c235f74_o2_featured_v2.jpg">
+<img class ="food12"  src="https://b.zmtcdn.com/data/pictures/3/801203/d738bd19627a8be8141c000b5507057d_o2_featured_v2.jpg">
+
+<span style = " font-size:25px;position:relative;left:180px;top:180px ">
+<p>Neelkanth Sweets</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Neelkanth Sweets<br>
+Rs.200 Per Person</p>
+</span>
+<span style = " font-size:25px;position:relative; top:60px;left:620px ">
+<p>Burgur King</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Burgur,American<br>
+Rs.150 Per Person</p></span>
+<span style = " font-size:25px;position:relative; top:-70px;left:1060px ">
+<p>Sweet Truth</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Bakery,Desserts<br>
+Rs.200 Per Person</p></span>
+</div>
+
+<div class="del">
+<h4>Delivery</h4>
+<span>
+<img class ="food1" src="https://b.zmtcdn.com/data/pictures/4/19153214/e795b8dec7fc122d8856538f17bc37db_o2_featured_v2.jpg?output-format=webp">
+<span class="off" style="color:white;position:relative;left:-134px;top:140px;"> 50% OFF</span>
+<span class="pro" style="color:white;position:relative;left:-200px;top:110px;">pro extra 50% OFF</span>
+</span>
+<span>
+<img class ="food2"  src="https://b.zmtcdn.com/data/pictures/6/19270356/48abfccedf0d197f87d4af27474b78b2_o2_featured_v2.png?output-format=webp">
+<span class="off" style="color:white;position:relative;left:-264px;top:140px;"> 50% OFF</span>
+</span>
 <img class ="food3"  src="https://b.zmtcdn.com/data/pictures/chains/9/19268649/fcd5c6ee253d7fdcf7e7c374dd3f6a73_o2_featured_v2.jpg?output-format=webp">
 
 <span style = " font-size:25px;position:relative ;left:240px; ;top:150px ">
@@ -37,9 +162,9 @@ Rs.200 Per Person</p></span>
 
 <img class ="food4" src="https://b.zmtcdn.com/data/pictures/chains/2/19318342/5364a24b1900e968e7e6790cb6041ff8_o2_featured_v2.jpg">
 <img class ="food5"  src="https://b.zmtcdn.com/data/pictures/4/801104/035c9a4200ae25866b7266ff995715f4_o2_featured_v2.jpg">
-<img class ="food6"  src="https://b.zmtcdn.com/data/pictures/9/18821889/703311585ae6f04caeab82779852a5b9_o2_featured_v2.jpg?output-format=webp">
+<img class ="food6"  src="https://b.zmtcdn.com/data/pictures/chains/6/800106/9a8df7f6e825f15f1e32f00bf967ca5b_o2_featured_v2.jpg">
 
-<span style = " font-size:25px;position:absolute ;left:240px; ;top:1000px ">
+<span style = " font-size:25px;position:absolute ;left:230px; ;top:1000px ">
 <p>The Biryani Life</p>
 <p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Biryani,North India<br>
 Rs.200 Per Person</p>
@@ -53,22 +178,42 @@ Rs.150 Per Person</p></span>
 <p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Bakery,Desserts<br>
 Rs.200 Per Person</p></span>
 
-<img class ="food7" src="https://b.zmtcdn.com/data/pictures/chains/2/19318342/5364a24b1900e968e7e6790cb6041ff8_o2_featured_v2.jpg">
-<img class ="food8"  src="https://b.zmtcdn.com/data/pictures/4/801104/035c9a4200ae25866b7266ff995715f4_o2_featured_v2.jpg">
-<img class ="food9"  src="https://b.zmtcdn.com/data/pictures/9/18821889/703311585ae6f04caeab82779852a5b9_o2_featured_v2.jpg?output-format=webp">
+<img class ="food7" src="https://b.zmtcdn.com/data/pictures/5/19231445/c751805b5927046d340926f870a95f5e_o2_featured_v2.jpg?output-format=webp">
+<img class ="food8"  src="https://b.zmtcdn.com/data/homepage_dish_data/2/78261817faa51e9456cfab592c189a62.png">
+<img class ="food9"  src="https://b.zmtcdn.com/data/homepage_dish_data/4/90cc74d5256f614fc6658cf7942dadd9.png">
 
-<span style = " font-size:25px;position:absolute ;left:240px; ;top:1000px ">
+<span style = " font-size:25px;position:relative;left:190px;top:350px ">
 <p>The Biryani Life</p>
 <p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Biryani,North India<br>
 Rs.200 Per Person</p>
 </span>
-<span style = " font-size:25px;position:absolute ; top:1000px;left:650px ">
+<span style = " font-size:25px;position:relative; top:220px;left:620px ">
 <p>Burgur King</p>
 <p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Burgur,American<br>
 Rs.150 Per Person</p></span>
-<span style = " font-size:25px;position:absolute; top:1000px;left:1050px ">
+<span style = " font-size:25px;position:relative; top:95px;left:1050px ">
 <p>Sweet Truth</p>
 <p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Bakery,Desserts<br>
 Rs.200 Per Person</p></span>
+
+<img class ="food10" src="https://b.zmtcdn.com/data/pictures/9/800119/18378edfd9f0f670f99e07796670acbd_o2_featured_v2.jpg">
+<img class ="food11"  src="https://b.zmtcdn.com/data/pictures/chains/2/18639812/cfbda35382090ddbf5128a946c235f74_o2_featured_v2.jpg">
+<img class ="food12"  src="https://b.zmtcdn.com/data/pictures/3/801203/d738bd19627a8be8141c000b5507057d_o2_featured_v2.jpg">
+
+<span style = " font-size:25px;position:relative;left:180px;top:180px ">
+<p>Neelkanth Sweets</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Neelkanth Sweets<br>
+Rs.200 Per Person</p>
+</span>
+<span style = " font-size:25px;position:relative; top:60px;left:620px ">
+<p>Burgur King</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Burgur,American<br>
+Rs.150 Per Person</p></span>
+<span style = " font-size:25px;position:relative; top:-70px;left:1060px ">
+<p>Sweet Truth</p>
+<p style = "color:grey;font-family:HoloLens MDL2 Assets; font-size:18px">Bakery,Desserts<br>
+Rs.200 Per Person</p></span>
+</div>
+
 </body>
 </html>
